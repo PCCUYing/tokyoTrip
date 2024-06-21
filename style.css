@@ -1,0 +1,36 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+h1{
+    color: #333;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#dropdown{
+    display: block;
+    margin: 50px auto;
+    padding: 10px 15px;
+    font-size: 16px;
+}
+
+button{
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+}
+
+h2{
+    text-align: center;
+    color: #333;
+    margin-top: 50px;
+}
