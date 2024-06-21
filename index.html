@@ -3,13 +3,24 @@
 <body>
     <h1>日本東京都旅遊景點</h1>
 
-    <select id="dropdown">
-        <option value="9-83 Uenokoen, Taito City, Tokyo 110-8711日本">上野動物園</option>
-        <option value="4-chōme-2-8 Shibakōen, Minato City, Tokyo 105-0011日本">東京塔</option>
-        <option value="2 Chome-3-1 Asakusa, Taito City, Tokyo 111-0032日本">淺草寺</option>
-    </select>
+    <div class="form-container">
+        <select id="dropdown">
+            <optgroup label="上野">
+                <option value="6 Chome-11-5 Ueno, Taito City, Tokyo 110-0005日本">OS Drug 上野店藥妝店</option>
+                <option value="日本〒110-0005 Tokyo, Taito City, Ueno, 6 Chome−6−6 小湊ビル 1~2F">一頭牛燒肉 房家</option>
+            </optgroup>
+            <optgroup label="淺草">
+                <option value="淺草寺">淺草寺</option>
+                <option value="雷門">雷門</option>
+            </optgroup>
+            <optgroup label="新宿">
+                <option value="新宿御苑">新宿御苑</option>
+                <option value="新宿歌舞伎町">新宿歌舞伎町</option>
+            </optgroup>
+        </select>
 
-    <button onclick="displayDestination()">確認</button>
+        <button onclick="displayDestination()">確認</button>
+    </div>
 
     <h2 id="result"> </h2>
     <link rel="stylesheet" href="style.css">
