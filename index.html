@@ -1,29 +1,38 @@
 <!DOCTYPE html>
 <html>
+<head>
+    <meta charset="UTF-8">
+    <title>東京旅遊景點導覽</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 <body>
-    <h1>日本東京都旅遊景點</h1>
+    <div class="container">
+        <h1>日本東京都旅遊景點</h1>
 
-    <div class="form-container">
-        <select id="dropdown">
-            <optgroup label="上野">
-                <option value="6 Chome-11-5 Ueno, Taito City, Tokyo 110-0005日本">OS Drug 上野店藥妝店</option>
-                <option value="日本〒110-0005 Tokyo, Taito City, Ueno, 6 Chome−6−6 小湊ビル 1~2F">一頭牛燒肉 房家</option>
-            </optgroup>
-            <optgroup label="淺草">
-                <option value="淺草寺">淺草寺</option>
-                <option value="雷門">雷門</option>
-            </optgroup>
-            <optgroup label="新宿">
-                <option value="新宿御苑">新宿御苑</option>
-                <option value="新宿歌舞伎町">新宿歌舞伎町</option>
-            </optgroup>
-        </select>
+        <div class="form-container">
+            <select id="dropdown">
+                <optgroup label="上野">
+                    <option value="6 Chome-11-5 Ueno, Taito City, Tokyo 110-0005日本">OS Drug 上野店藥妝店</option>
+                    <option value="日本〒110-0005 Tokyo, Taito City, Ueno, 6 Chome−6−6 小湊ビル 1~2F">一頭牛燒肉 房家</option>
+                </optgroup>
+                <optgroup label="淺草">
+                    <option value="淺草寺">淺草寺</option>
+                    <option value="雷門">雷門</option>
+                </optgroup>
+                <optgroup label="新宿">
+                    <option value="新宿御苑">新宿御苑</option>
+                    <option value="新宿歌舞伎町">新宿歌舞伎町</option>
+                </optgroup>
+            </select>
 
-        <button onclick="displayDestination()">確認</button>
+            <button onclick="displayDestination()">確認地點</button>
+        </div>
+
+        <div class="result-container">
+            <h2 id="result"></h2>
+        </div>
     </div>
 
-    <h2 id="result"> </h2>
-    <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
 </body>
 </html>
